@@ -1,6 +1,7 @@
 {
     "name": "anned20/strix",
     "description": "Minimal container for modern PHP applications following the PSR11 standard",
+	"keywords": ["psr-11", "container", "container-interop", "container-interface", "minimal"],
     "type": "library",
     "license": "MIT",
     "authors": [
