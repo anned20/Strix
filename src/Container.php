@@ -46,6 +46,9 @@ class Container implements ContainerInterface
 	/**
 	 * Add entry to container
 	 *
+	 * @param string $id
+	 * @param mixed  $entry
+	 *
 	 * @return Container
 	 */
 	public function add($id, $entry)
@@ -61,6 +64,8 @@ class Container implements ContainerInterface
 
 	/**
 	 * Delete entry in container
+	 *
+	 * @param string $id
 	 *
 	 * @return Container
 	 */
