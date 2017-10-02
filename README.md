@@ -1,3 +1,5 @@
+[![Packagist](https://img.shields.io/packagist/v/anned20/Strix.svg)](https://packagist.org/packages/anned20/strix)
+[![Latest Stable Version](https://poser.pugx.org/anned20/strix/v/stable)](https://packagist.org/packages/anned20/strix)
 [![Build Status](https://travis-ci.org/anned20/Strix.svg?branch=master)](https://travis-ci.org/anned20/Strix)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/anned20/Strix/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/anned20/Strix/?branch=master)
 
@@ -36,6 +38,16 @@ $hello = $container->get('config')['hello'];
 
 // And the function
 $rand = $container->get('function')();
+
+// Factories can be made too!
+$container->add('factory', function () {
+	return new SomeClass();
+});
+
+// Just like services
+$myService = new SomeClass();
+
+$container->add('service', $myService);
 
 // Whoops!
 $container->add('config', ['foo' => 'bar']); // AlreadyInContainerException thrown
