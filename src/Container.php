@@ -36,7 +36,7 @@ class Container implements ContainerInterface
 	 */
 	public function has($id)
 	{
-		if (isset($this->entries[$id])) {
+		if (array_key_exists($id, $this->entries)) {
 			return true;
 		}
 
