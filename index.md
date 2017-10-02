@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/anned20/strix.svg?branch=master)](https://travis-ci.org/anned20/strix)
+[![Build Status](https://travis-ci.org/anned20/strix.svg?branch=master)](https://travis-ci.org/anned20/Strix)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/anned20/Strix/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/anned20/Strix/?branch=master)
 
 # Strix
